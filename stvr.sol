@@ -18,4 +18,6 @@ function tip( address _contentCreator, uint _amount) public{
     contentConsumer = _msgSender();
     _transfer(contentConsumer, contentCreator, _amount);
 }
+
+//Aurora contract address: 0x6Af750328f31c019AFC091e7B23A209a29dA756F
 }
